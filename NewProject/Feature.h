@@ -5,7 +5,11 @@
 class Feature
 {
 public:
-	Feature();
+	//Feature();
+
+	//Feature(int _NumberOfFeatures = 0);
+
+	Feature(int _NumberOfFeatures = 0, std::string _NameOfFeature = "Default");
 
 	int GetNumberOfFeatures() const;
 
@@ -21,7 +25,7 @@ public:
 
 protected:
 
-	int AdditionOfFeature;
+	int AdditionOfFeature = 0;
 
 private:
 	int NumberOfFeatures = 0;

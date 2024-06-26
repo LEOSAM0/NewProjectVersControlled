@@ -1,9 +1,20 @@
 #include "Feature.h"
 #include <iostream>
 
-Feature::Feature()
-{
+//Feature::Feature()
+//{
+//
+//}
 
+//Feature::Feature(int _NumberOfFeatures)
+//{
+//	NumberOfFeatures = _NumberOfFeatures;
+//}
+
+Feature::Feature(int _NumberOfFeatures, std::string _NameOfFeature)
+{
+	NumberOfFeatures = _NumberOfFeatures;
+	NameOfFeature = _NameOfFeature;
 }
 
 int Feature::GetNumberOfFeatures() const
