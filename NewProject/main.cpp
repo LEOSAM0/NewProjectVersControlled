@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Feature.h"
+#include "MainFeature.h"
 
 int main()
 {
